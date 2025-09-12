@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cardaio - Menu Digital
 
-## Getting Started
+Um projeto Next.js moderno para criação de menus digitais profissionais, otimizado para SEO, responsivo e rápido.
 
-First, run the development server:
+## 🚀 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js 15** com App Router
+- **TypeScript** para type safety
+- **Tailwind CSS v4** para estilização
+- **Framer Motion** para animações suaves
+- **Lucide React** para ícones
+- **SEO otimizado** com meta tags completas
+- **Responsivo** mobile-first
+- **Acessibilidade** (a11y) implementada
+
+## 🎨 Design
+
+- **Cores da identidade visual:**
+  - Primária: Preto (#000000)
+  - Secundária: Vermelho (#FF0000)
+- **Inspirado no estilo visual do Bling**
+- **Interface moderna e limpa**
+
+## 📱 Funcionalidades
+
+### Landing Page
+- Header fixo com navegação
+- Seção Hero com CTA
+- Seção de Funcionalidades com cards
+- Seção de Planos com preços
+- Footer completo
+- Modal de Políticas de Privacidade
+
+### Páginas
+- **Checkout** - Formulário completo de pagamento
+- **Política de Privacidade** - Conformidade com LGPD
+- **Termos de Uso** - Condições de uso do serviço
+
+### Componentes
+- Header responsivo com menu mobile
+- Hero com animações e mockups
+- Cards de funcionalidades com ícones
+- Planos de preços com destaque
+- Modal de privacidade com localStorage
+- Footer com links organizados
+
+## 🛠️ Tecnologias
+
+- **Next.js 15.5.3** - Framework React
+- **React 19.1.0** - Biblioteca de UI
+- **TypeScript 5** - Tipagem estática
+- **Tailwind CSS 4** - Framework CSS
+- **Framer Motion 12.23.12** - Animações
+- **Lucide React 0.544.0** - Ícones
+
+## 🚀 Como executar
+
+1. **Instalar dependências:**
+   ```bash
+   npm install
+   ```
+
+2. **Executar em desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Abrir no navegador:**
+   ```
+   http://localhost:3000
+   ```
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── app/
+│   ├── checkout/
+│   │   └── page.tsx          # Página de checkout
+│   ├── politica-privacidade/
+│   │   └── page.tsx          # Política de privacidade
+│   ├── termos-uso/
+│   │   └── page.tsx          # Termos de uso
+│   ├── globals.css           # Estilos globais
+│   ├── layout.tsx            # Layout principal
+│   └── page.tsx              # Página inicial
+├── components/
+│   ├── Header.tsx            # Cabeçalho com navegação
+│   ├── Hero.tsx              # Seção principal
+│   ├── Features.tsx          # Funcionalidades
+│   ├── Pricing.tsx           # Planos e preços
+│   ├── Footer.tsx            # Rodapé
+│   └── PrivacyModal.tsx      # Modal de privacidade
+├── lib/                      # Utilitários
+└── types/                    # Definições de tipos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 SEO e Performance
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Meta tags otimizadas
+- Open Graph para redes sociais
+- Twitter Cards
+- Estrutura semântica HTML5
+- Imagens otimizadas
+- Lazy loading
+- Animações performáticas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Responsividade
 
-## Learn More
+- Design mobile-first
+- Breakpoints otimizados
+- Menu hambúrguer para mobile
+- Cards adaptativos
+- Tipografia responsiva
 
-To learn more about Next.js, take a look at the following resources:
+## ♿ Acessibilidade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Navegação por teclado
+- Labels descritivos
+- Contraste adequado
+- ARIA labels
+- Foco visível
+- Screen reader friendly
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔒 Privacidade e LGPD
 
-## Deploy on Vercel
+- Modal de consentimento
+- Política de privacidade completa
+- Termos de uso detalhados
+- Conformidade com LGPD
+- Armazenamento local de preferências
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Personalização
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+As cores podem ser facilmente alteradas no arquivo `src/app/globals.css`:
+
+```css
+:root {
+  --primary: #000000;        /* Preto */
+  --secondary: #FF0000;      /* Vermelho */
+  --primary-light: #333333;  /* Preto claro */
+  --secondary-light: #FF3333; /* Vermelho claro */
+}
+```
+
+## 📄 Licença
+
+Este projeto é privado e proprietário do Cardaio.
+
+## 🤝 Suporte
+
+Para dúvidas ou suporte, entre em contato:
+- Email: suporte@cardaio.com
+- Telefone: (11) 99999-9999
+
+---
+
+**Cardaio** - Seu menu digital simples e rápido 🚀
