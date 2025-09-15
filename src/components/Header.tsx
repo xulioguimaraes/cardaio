@@ -67,11 +67,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link href="#planos" className="julio">
+            <Link href="#planos">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-secondary  text-white px-6 py-2 rounded-lg font-semibold hover:bg-secondary-light transition-colors duration-200"
+                className="bg-secondary text-white px-6 py-2 rounded-lg font-semibold hover:bg-secondary-light transition-colors duration-200"
               >
                 Começar Agora
               </motion.button>

@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Cardaio",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/logo.svg",
         width: 1200,
         height: 630,
         alt: "Cardaio - Menu Digital",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cardaio - Seu Menu Digital Simples e Rápido",
     description: "Crie e gerencie seu menu digital profissional em minutos.",
-    images: ["/og-image.jpg"],
+    images: ["/logo.svg"],
   },
   robots: {
     index: true,
@@ -74,8 +74,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/logo.svg" />
+        <link rel="apple-touch-icon" href="/logo.svg" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
